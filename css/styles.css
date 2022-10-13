@@ -109,6 +109,20 @@ svg{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); position: relative;}
 
+
+@media screen and (max-width:414px) {
+    .images_bg_top{
+        width:100%;
+        top: -70%;
+        left:-25%;
+    }
+    .images_bg_bootom{
+        width: 100%;
+        height: auto;
+        right: -60%;
+    }
+}
+
 @media screen and (max-width:375px) {
     .images_bg_top{
         width:80%;
@@ -116,6 +130,7 @@ svg{
     }
     .images_bg_bootom{
         width: 90%;
+        height: auto;
     }
 }
 
